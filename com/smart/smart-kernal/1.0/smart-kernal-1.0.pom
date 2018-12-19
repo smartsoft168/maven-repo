@@ -11,7 +11,7 @@
 
   <properties>
     <java.version>1.8</java.version>
-    <weixin-java-mp.version>3.1.0</weixin-java-mp.version>
+    <weixin-java-mp.version>3.2.0</weixin-java-mp.version>
     <github.global.server>github</github.global.server>
   </properties>
 
@@ -230,10 +230,10 @@
     </dependency>
     <!--代码生成器依赖-->
     <!--<dependency>-->
-      <!--<groupId>org.freemarker</groupId>-->
-      <!--<artifactId>freemarker</artifactId>-->
-      <!--<version>2.3.23</version>-->
-      <!--<scope>test</scope>-->
+    <!--<groupId>org.freemarker</groupId>-->
+    <!--<artifactId>freemarker</artifactId>-->
+    <!--<version>2.3.23</version>-->
+    <!--<scope>test</scope>-->
     <!--</dependency>-->
     <dependency>
       <groupId>org.mybatis.generator</groupId>
@@ -317,9 +317,9 @@
       <version>2.6.11</version>
     </dependency>
     <!--<dependency>-->
-      <!--<groupId>com.smartsoft</groupId>-->
-      <!--<artifactId>yg-web</artifactId>-->
-      <!--<version>1.0</version>-->
+    <!--<groupId>com.smartsoft</groupId>-->
+    <!--<artifactId>yg-web</artifactId>-->
+    <!--<version>1.0</version>-->
     <!--</dependency>-->
 
     <!--本地回调-->
@@ -358,19 +358,19 @@
   <build>
     <plugins>
       <!--<plugin>-->
-        <!--<groupId>org.springframework.boot</groupId>-->
-        <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
-        <!--<configuration>-->
-          <!--<includeSystemScope>true</includeSystemScope>-->
-        <!--</configuration>-->
-        <!--<dependencies>-->
+      <!--<groupId>org.springframework.boot</groupId>-->
+      <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+      <!--<configuration>-->
+      <!--<includeSystemScope>true</includeSystemScope>-->
+      <!--</configuration>-->
+      <!--<dependencies>-->
 
-          <!--&lt;!&ndash;hot reload&ndash;&gt;-->
-          <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
-            <!--&lt;!&ndash;<groupId>org.springframework</groupId>&ndash;&gt;-->
-            <!--&lt;!&ndash;<artifactId>springloaded</artifactId>&ndash;&gt;-->
-          <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
-        <!--</dependencies>-->
+      <!--&lt;!&ndash;hot reload&ndash;&gt;-->
+      <!--&lt;!&ndash;<dependency>&ndash;&gt;-->
+      <!--&lt;!&ndash;<groupId>org.springframework</groupId>&ndash;&gt;-->
+      <!--&lt;!&ndash;<artifactId>springloaded</artifactId>&ndash;&gt;-->
+      <!--&lt;!&ndash;</dependency>&ndash;&gt;-->
+      <!--</dependencies>-->
       <!--</plugin>-->
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
